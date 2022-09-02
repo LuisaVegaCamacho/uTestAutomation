@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-09-2022 22:19</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-09-2022 23:52</span>
     <br style="clear:left"/>
 </div>
 
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Register a new user in uTest
+                                <span class="error-color">Register a new user in uTest
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -204,7 +204,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                    <span class="error-message error-message-title">Cucumber exception: Arity mismatch: Step Definition 'co.com.utest.automation.stepdefinitions.utestStepDefinitions.sheFinishesByClickingRegister() in file:/C:/Users/USUARIO/Desktop/Reto%20T&eacute;cnico%20de%20Automatizaci&oacute;n/co.com.utest.automation/build/classes/java/test/' with pattern [^she finishes by clicking register(.*)$] is declared with 0 parameters. However, the gherkin step has 1 arguments []. </span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -220,20 +220,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                    <h4>cucumber.runtime.CucumberException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>co.com.utest.automation.tasks.Form3.performAs(Form3.java:21)<br />co.com.utest.automation.stepdefinitions.utestStepDefinitions.sheEntersHerDataInTheUTestRegistrationForm(utestStepDefinitions.java:27)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                        <pre>cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;mobile-device&quot;]/div[1]/div[2]/div/div[1]/span to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
-                        <pre>co.com.utest.automation.tasks.Form3.performAs(Form3.java :21)<br />co.com.utest.automation.stepdefinitions.utestStepDefinitions.sheEntersHerDataInTheUTestRegistrationForm(utestStepDefinitions.java :27)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -241,43 +234,63 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource1894672266134864992.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource8037294111549666151.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f3a1e58f0ebe9f4ff136f36ce84cc328ef362a3ccc2e553fe6f78bb7129fcd4e.png" title=" Given than Luisa wants to work independently in the testing area on the uTest platform" width="1366"/>
-                <img src="f3a1e58f0ebe9f4ff136f36ce84cc328ef362a3ccc2e553fe6f78bb7129fcd4e.png" title=" Luisa open up" width="1366"/>
-                <img src="f3a1e58f0ebe9f4ff136f36ce84cc328ef362a3ccc2e553fe6f78bb7129fcd4e.png" title=" Luisa opens the U test page" width="1366"/>
-                <img src="5d11b8c12d51cab7da5a896c7f80cd70a4fe4c764d2feffedcd1647490d1e14b.png" title=" Luisa open up (completed)" width="1366"/>
-                <img src="405b9d20ae8267190d70bb2e372470b347631249f308623e89079f255cc8a89f.png" title=" Luisa login" width="1366"/>
-                <img src="405b9d20ae8267190d70bb2e372470b347631249f308623e89079f255cc8a89f.png" title=" Luisa clicks on button that shows us the form to login" width="1366"/>
-                <img src="405b9d20ae8267190d70bb2e372470b347631249f308623e89079f255cc8a89f.png" title=" Luisa login (completed)" width="1366"/>
-                <img src="e5bbac90c797d6ad3aff75af1c16fdea9bd57c9acba8552f9d7c3714d9e88aef.png" title=" Given than Luisa wants to work independently in the testing area on the uTest platform (completed)" width="1366"/>
-                <img src="fcb49c9f647a8cda63c768fb014e77b98eaeb98081f1b135a4f45f4d4ec4a665.png" title=" When she enters her data in the uTest registration form" width="1366"/>
-                <img src="fcb49c9f647a8cda63c768fb014e77b98eaeb98081f1b135a4f45f4d4ec4a665.png" title=" Luisa form1" width="1366"/>
-                <img src="fcb49c9f647a8cda63c768fb014e77b98eaeb98081f1b135a4f45f4d4ec4a665.png" title=" Luisa enters 'Luisa Fernanda' into Write First Name" width="1366"/>
-                <img src="236132ea2f7b5e4c307a9b8fa8a0689f381cfd38a61d02c262be09af38361e10.png" title=" Luisa enters 'Vega Camacho' into Write Last Name" width="1366"/>
-                <img src="8bdde42efd2a09359019332c28a493ffd1ff909dcce7c03438752e5c7a7a3c96.png" title=" Luisa enters 'pruebitas@gmail.com' into Write Email Address" width="1366"/>
-                <img src="cd814b9a37dd66602d1077a3b827415c6be7772f350894adc487ef17b9da454e.png" title=" Luisa clicks on Select Month Option" width="1366"/>
-                <img src="8d84b2b202c5dc6da9eb0cdd12d4094a1e46925b833391f1c1241706c3e7b19b.png" title=" Luisa clicks on Select Day Option" width="1366"/>
-                <img src="25d1f7a975c736ff17db00f64048443c21aaa0d432ff8e61c9ddec3fad7e0866.png" title=" Luisa clicks on Select Year Option" width="1366"/>
-                <img src="0f2446c597de36c851865071db7ec9c4e876c59b9ccc25f44712482bbecc3f30.png" title=" Luisa enters 'Spanish' into Select Language" width="1366"/>
-                <img src="dd91a48ce218b9a28172cfc0dced03115184bf11952610f96eb061842b38ae3e.png" title=" Luisa enters ENTER into Select Language" width="1366"/>
-                <img src="d49f1992f0155bda6eb5cb2416160474d2e060a3ca739b2104e12c03d189cffe.png" title=" Luisa clicks on Click in Button Next" width="1366"/>
-                <img src="d49f1992f0155bda6eb5cb2416160474d2e060a3ca739b2104e12c03d189cffe.png" title=" Luisa form1 (completed)" width="1366"/>
-                <img src="8231d1fabde3160dcdc5c11286509ddacbd61d7e862f743f3fd3875bd0fd71a1.png" title=" Luisa form2" width="1366"/>
-                <img src="8231d1fabde3160dcdc5c11286509ddacbd61d7e862f743f3fd3875bd0fd71a1.png" title=" Luisa enters 'Bogota D.C' into City" width="1366"/>
-                <img src="4737d2300ca9a2616b2a0c614965328bf5bbd99bc06967b04d3a0329ebac03ce.png" title=" Luisa enters ARROW_DOWN into City" width="1366"/>
-                <img src="2e78252d6ee0e1d3f0d5d1e3f3e13a8c2244e3b56a60213e919bebcdd58171cd.png" title=" Luisa enters ENTER into City" width="1366"/>
-                <img src="f0947b0d944d877fd098984ccf5629f27819e23618ae56093996ddbb9f33b133.png" title=" Luisa enters '110821' into Postal" width="1366"/>
-                <img src="a7260e6cc6cd8faec2ffd8dbd08d4fa8184527ed22bf1475a395c061698261ca.png" title=" Luisa clicks on Country" width="1366"/>
-                <img src="d6f5289bb98b785aa8250e1da603dd1f866f5145b6c23aaf697d9b11416ff3e8.png" title=" Luisa enters 'Colombia' into Country" width="1366"/>
-                <img src="b6fbaa583fd55a5972853d5b7cf6b61425a813d8981458c1fe01c7d07c3bd62f.png" title=" Luisa enters ENTER into Country" width="1366"/>
-                <img src="490b7351dd691025f35cf757db0399afabccdf152ee6a093490ce601456137eb.png" title=" Luisa clicks on Next Button" width="1366"/>
-                <img src="490b7351dd691025f35cf757db0399afabccdf152ee6a093490ce601456137eb.png" title=" Luisa form2 (completed)" width="1366"/>
-                <img src="60a45d5c6afd6a55167835320a3defdeda4101f72bb2efdbee83618e12d441da.png" title=" Luisa form3" width="1366"/>
-                <img src="60a45d5c6afd6a55167835320a3defdeda4101f72bb2efdbee83618e12d441da.png" title=" Luisa clicks on Select Your Mobile Device: <span class='failing-color'>FAILURE</span>" width="1366"/>
+                <img src="fe88801d59ac02c6d52aab2c66a2f0e7a78195ac84a233ea0865b324dfbde20d.png" title=" Given than Luisa wants to work independently in the testing area on the uTest platform" width="1366"/>
+                <img src="fe88801d59ac02c6d52aab2c66a2f0e7a78195ac84a233ea0865b324dfbde20d.png" title=" Luisa open up" width="1366"/>
+                <img src="fe88801d59ac02c6d52aab2c66a2f0e7a78195ac84a233ea0865b324dfbde20d.png" title=" Luisa opens the U test page" width="1366"/>
+                <img src="fe88801d59ac02c6d52aab2c66a2f0e7a78195ac84a233ea0865b324dfbde20d.png" title=" Luisa open up (completed)" width="1366"/>
+                <img src="73774a3a6338af528ac9d4e3af470775fd7606b57bdd9fcc55687fb9bb55fbe3.png" title=" Luisa login" width="1366"/>
+                <img src="73774a3a6338af528ac9d4e3af470775fd7606b57bdd9fcc55687fb9bb55fbe3.png" title=" Luisa clicks on button that shows us the form to login" width="1366"/>
+                <img src="73774a3a6338af528ac9d4e3af470775fd7606b57bdd9fcc55687fb9bb55fbe3.png" title=" Luisa login (completed)" width="1366"/>
+                <img src="73774a3a6338af528ac9d4e3af470775fd7606b57bdd9fcc55687fb9bb55fbe3.png" title=" Given than Luisa wants to work independently in the testing area on the uTest platform (completed)" width="1366"/>
+                <img src="c5e1293f52ac957e25eb75ea04d3f4d83da0c8dfa35186a29f1e904df149374d.png" title=" When she enters her data in the uTest registration form" width="1366"/>
+                <img src="c5e1293f52ac957e25eb75ea04d3f4d83da0c8dfa35186a29f1e904df149374d.png" title=" Luisa form1" width="1366"/>
+                <img src="c5e1293f52ac957e25eb75ea04d3f4d83da0c8dfa35186a29f1e904df149374d.png" title=" Luisa enters 'Luisa Fernanda' into Write First Name" width="1366"/>
+                <img src="61f4eb353edf99c7826cf7d2c1f6b133398310eda6681989af37dd10b8552c3d.png" title=" Luisa enters 'Vega Camacho' into Write Last Name" width="1366"/>
+                <img src="c076f765165a004bf6452c193da806d45dfcffefc9e876c004f1923f121ef18b.png" title=" Luisa enters 'pruebitas9299@gmail.com' into Write Email Address" width="1366"/>
+                <img src="91a37dba122e16295c20278a3b3560f2b69540cfeff5d895c7e4efb221b5d19a.png" title=" Luisa clicks on Select Month Option" width="1366"/>
+                <img src="59bfd1c7e582737a55135196f481290d42a343c35d6455c6bd331080431a1b59.png" title=" Luisa clicks on Select Day Option" width="1366"/>
+                <img src="c76580c024ba46d5b8ef89397656f76ce1d16d75c451d3f437022c090aa31189.png" title=" Luisa clicks on Select Year Option" width="1366"/>
+                <img src="39ea55c20cb870f9e5b52680d231ea5b9991b358a9dcf4ebc89f9a99c4dffa8a.png" title=" Luisa enters 'Spanish' into Select Language" width="1366"/>
+                <img src="a56f67e57f44616e080c2d10cd4dc11c5856bdbe4b52e937cc4da318ff42c82c.png" title=" Luisa enters ENTER into Select Language" width="1366"/>
+                <img src="6e56d1864c80a1074bea40729aa3e7c8179f4669b0ecd6f9d638677a6ececf2b.png" title=" Luisa clicks on Click in Button Next" width="1366"/>
+                <img src="6e56d1864c80a1074bea40729aa3e7c8179f4669b0ecd6f9d638677a6ececf2b.png" title=" Luisa form1 (completed)" width="1366"/>
+                <img src="a55bc4be12deaa3f4ca3ac8fb14ed46864b5ae19bb8124916d0c6ae29fa58aae.png" title=" Luisa form2" width="1366"/>
+                <img src="a55bc4be12deaa3f4ca3ac8fb14ed46864b5ae19bb8124916d0c6ae29fa58aae.png" title=" Luisa enters 'Bogota D.C' into City" width="1366"/>
+                <img src="61eb8f8e1f9b1e64994471088bec0c9a0da22e822bc6b5d6355b621b840f2a16.png" title=" Luisa enters ARROW_DOWN into City" width="1366"/>
+                <img src="2b7d0f82690e007cc0aa0c44016bb49a530b82d944d372ea0ae7ebb1cd1a4e29.png" title=" Luisa enters ENTER into City" width="1366"/>
+                <img src="34b726cf7e9f6b9f8023c767fa52bd7907d3878618bc5e53c6dabf23b6d4ab64.png" title=" Luisa enters '110821' into Postal" width="1366"/>
+                <img src="995d583071004b72ff2d785e4a1f85b4296d6060e5143356488233dfb142461d.png" title=" Luisa clicks on Country" width="1366"/>
+                <img src="df960ba4fe23baa85ae1fb44b2e873d529c012c6f88e946c04ded7198d9936e7.png" title=" Luisa enters 'Colombia' into Country" width="1366"/>
+                <img src="536bd84bf5966cb3950586db4383b4b0cc1a5d95f52390ae88928b0dcd8c8d73.png" title=" Luisa enters ENTER into Country" width="1366"/>
+                <img src="1754b524f73605b8d21ebd1873057558361a38d50b9542536f6b5395abffe77f.png" title=" Luisa clicks on Next Button" width="1366"/>
+                <img src="1754b524f73605b8d21ebd1873057558361a38d50b9542536f6b5395abffe77f.png" title=" Luisa form2 (completed)" width="1366"/>
+                <img src="fd2f9a0a18f49af54b03057cdf060c6109a965e24f460a600f1d2c74e6aa96b3.png" title=" Luisa form3" width="1366"/>
+                <img src="fd2f9a0a18f49af54b03057cdf060c6109a965e24f460a600f1d2c74e6aa96b3.png" title=" Luisa clicks on Select Your Mobile Device" width="1366"/>
+                <img src="7d5bf59bec8dc095509c53867740d7ec64d6a154865e9cc45d6e1e822476882d.png" title=" Luisa enters 'Apple' into Select Your Mobile Device" width="1366"/>
+                <img src="bc79d73f12553b19c93348b40b15e98b76212f303324dda988f5fdd0ff47e7a3.png" title=" Luisa enters ENTER into Select Your Mobile Device" width="1366"/>
+                <img src="9b89745e889232349ccf7eaddf822a98f937ab0237cb507427d257f2e2cbe87c.png" title=" Luisa clicks on Select Your Model" width="1366"/>
+                <img src="b656d16a23b1ce6a44d5b55cdc938c57b8663f5e5f7590f77a1d81d3789a0ff9.png" title=" Luisa enters 'iPhone 7 Plus' into Select Your Model" width="1366"/>
+                <img src="41f8a3e1dc6f085a02fb4ffdfa752f5b635b26140f28c9a0b110951294ead6c6.png" title=" Luisa enters ENTER into Select Your Model" width="1366"/>
+                <img src="bbc8bf364ac08e697f0742743413930375272abed6f8196064adba5257378bcf.png" title=" Luisa clicks on Select Your SO" width="1366"/>
+                <img src="44456bfd1942039fd9c874eac606e54292332df202e4394fdb667a289a786fe8.png" title=" Luisa enters 'iOS 10.0' into Select Your SO" width="1366"/>
+                <img src="50c06ddb0f478cd378d1ec0174006aa4de5cfaf7bfebbd9a066aa6f0f5c023f6.png" title=" Luisa enters ENTER into Select Your SO" width="1366"/>
+                <img src="bf39d45c016c53c9831b490e96c0f23ef4f42f76a7759feb6b2faf211da01f13.png" title=" Luisa clicks on Next Button" width="1366"/>
+                <img src="bf39d45c016c53c9831b490e96c0f23ef4f42f76a7759feb6b2faf211da01f13.png" title=" Luisa form3 (completed)" width="1366"/>
+                <img src="3c6a8a00979b165b6c3863c21d3afc43a91b6e4b936b7f0eb80eea1aff7abd54.png" title=" Luisa form4" width="1366"/>
+                <img src="3c6a8a00979b165b6c3863c21d3afc43a91b6e4b936b7f0eb80eea1aff7abd54.png" title=" Luisa enters 'Choucair2022*' into Password" width="1366"/>
+                <img src="1b80097466c174b452ffad35015e70749ebb501a49fec1be9e36985831e18868.png" title=" Luisa enters 'Choucair2022*' into Confirm Password" width="1366"/>
+                <img src="d158ca7eabaa4ba7c267d67c530c67a8fa9a92e849ee329866508512e13812a1.png" title=" Luisa clicks on Stay_informed check" width="1366"/>
+                <img src="27e004e078f5a5742ed2b031101efddcbc2f573f1083f1d7b5da2968310cb406.png" title=" Luisa clicks on Terms use check" width="1366"/>
+                <img src="6382b6e0764daec99f0bd9060b0712628d4b953b2a44a58c644d1dcc834a1e6a.png" title=" Luisa clicks on Privacity security check" width="1366"/>
+                <img src="9bcc94526eb3314c0b8d806e8c2aa760e9cdedd1b2e619cbfda8d0b181788e68.png" title=" Luisa clicks on Button" width="1366"/>
+                <img src="9bcc94526eb3314c0b8d806e8c2aa760e9cdedd1b2e619cbfda8d0b181788e68.png" title=" Luisa form4 (completed)" width="1366"/>
+                <img src="9bcc94526eb3314c0b8d806e8c2aa760e9cdedd1b2e619cbfda8d0b181788e68.png" title=" When she enters her data in the uTest registration form (completed)" width="1366"/>
+                <img src="fa5b2d4050e72830a9b481295c9e09c94bace141ffd6526b5b59da181f954124.png" title=" Then she finishes by clicking register: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

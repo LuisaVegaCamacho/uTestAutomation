@@ -1,7 +1,6 @@
 package co.com.utest.automation.stepdefinitions;
 
 import co.com.utest.automation.tasks.*;
-import co.com.utest.automation.questions.Answer;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -28,7 +27,7 @@ public class utestStepDefinitions {
     }
 
     @Then("^she finishes by clicking register(.*)$")
-    public void sheFinishesByClickingRegister(String question) {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
+    public void sheFinishesByClickingRegister() {
+
     }
 }

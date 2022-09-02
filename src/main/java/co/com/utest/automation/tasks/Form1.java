@@ -19,7 +19,7 @@ public class Form1 implements Task {
     public <T extends Actor> void performAs(T actor) {
      actor.attemptsTo(Enter.theValue("Luisa Fernanda").into(uTestForm1Page.FIRST_NAME),
              Enter.theValue("Vega Camacho").into(uTestForm1Page.LAST_NAME),
-             Enter.theValue("pruebitas@gmail.com").into(uTestForm1Page.EMAIL_ADDRESS),
+             Enter.theValue("pruebitas9299@gmail.com").into(uTestForm1Page.EMAIL_ADDRESS),
              Click.on(uTestForm1Page.BIRTH_MONTH_OPTION),
              Click.on(uTestForm1Page.BIRTH_DAY_OPTION),
              Click.on(uTestForm1Page.BIRTH_YEAR_OPTION),

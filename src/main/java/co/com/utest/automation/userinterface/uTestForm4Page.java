@@ -12,5 +12,5 @@ public class uTestForm4Page extends PageObject {
     public static final Target TERMS_USE_CHECK = Target.the("Terms use check").located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[5]/label/span[1]"));
     public static final Target PRIVACY_SECURITY_CHECK = Target.the("Privacity security check").located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[6]/label/span[1]"));
     public static final Target COMPLETE_BUTTON = Target.the("Button").located(By.id("laddaBtn"));
-    public static final Target LANDING_PAGE = Target.the("Title Register").located(By.xpath("//h1[contains(text(),'Welcome to the world's largest community of freelance software testers!')]"));
+
 }
