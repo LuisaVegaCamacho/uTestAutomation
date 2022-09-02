@@ -26,7 +26,7 @@ public class utestStepDefinitions {
         OnStage.theActorCalled("Luisa").wasAbleTo(Form1.thePage(), Form2.thePage(), Form3.thePage(), Form4.thePage());
     }
 
-    @Then("^she finishes by clicking register(.*)$")
+    @Then("^she finishes by clicking register$")
     public void sheFinishesByClickingRegister() {
 
     }
